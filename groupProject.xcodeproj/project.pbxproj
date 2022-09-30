@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		E2895F4128E69C3500443DAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2895F4028E69C3500443DAE /* AppDelegate.swift */; };
 		E2895F4328E69C3500443DAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2895F4228E69C3500443DAE /* SceneDelegate.swift */; };
-		E2895F4528E69C3500443DAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2895F4428E69C3500443DAE /* ViewController.swift */; };
+		E2895F4528E69C3500443DAE /* KostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2895F4428E69C3500443DAE /* KostViewController.swift */; };
 		E2895F4828E69C3500443DAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2895F4628E69C3500443DAE /* Main.storyboard */; };
 		E2895F4A28E69C3700443DAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2895F4928E69C3700443DAE /* Assets.xcassets */; };
 		E2895F4D28E69C3700443DAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2895F4B28E69C3700443DAE /* LaunchScreen.storyboard */; };
 		E2895F5828E69C3700443DAE /* groupProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2895F5728E69C3700443DAE /* groupProjectTests.swift */; };
 		E2895F6228E69C3700443DAE /* groupProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2895F6128E69C3700443DAE /* groupProjectUITests.swift */; };
 		E2895F6428E69C3700443DAE /* groupProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2895F6328E69C3700443DAE /* groupProjectUITestsLaunchTests.swift */; };
+		E2895F7328E69C6D00443DAE /* AlexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2895F7228E69C6D00443DAE /* AlexViewController.swift */; };
+		E2895F7528E69C8800443DAE /* CALENViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2895F7428E69C8800443DAE /* CALENViewController.swift */; };
+		E2895F7728E69C9600443DAE /* OWENViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2895F7628E69C9600443DAE /* OWENViewController.swift */; };
+		E2895F7928E69CA200443DAE /* NIckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2895F7828E69CA200443DAE /* NIckViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,7 @@
 		E2895F3D28E69C3500443DAE /* groupProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = groupProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2895F4028E69C3500443DAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2895F4228E69C3500443DAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E2895F4428E69C3500443DAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2895F4428E69C3500443DAE /* KostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KostViewController.swift; sourceTree = "<group>"; };
 		E2895F4728E69C3500443DAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2895F4928E69C3700443DAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2895F4C28E69C3700443DAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		E2895F5D28E69C3700443DAE /* groupProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = groupProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2895F6128E69C3700443DAE /* groupProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = groupProjectUITests.swift; sourceTree = "<group>"; };
 		E2895F6328E69C3700443DAE /* groupProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = groupProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E2895F7228E69C6D00443DAE /* AlexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlexViewController.swift; sourceTree = "<group>"; };
+		E2895F7428E69C8800443DAE /* CALENViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALENViewController.swift; sourceTree = "<group>"; };
+		E2895F7628E69C9600443DAE /* OWENViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWENViewController.swift; sourceTree = "<group>"; };
+		E2895F7828E69CA200443DAE /* NIckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIckViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +109,11 @@
 			children = (
 				E2895F4028E69C3500443DAE /* AppDelegate.swift */,
 				E2895F4228E69C3500443DAE /* SceneDelegate.swift */,
-				E2895F4428E69C3500443DAE /* ViewController.swift */,
+				E2895F7228E69C6D00443DAE /* AlexViewController.swift */,
+				E2895F7828E69CA200443DAE /* NIckViewController.swift */,
+				E2895F7628E69C9600443DAE /* OWENViewController.swift */,
+				E2895F7428E69C8800443DAE /* CALENViewController.swift */,
+				E2895F4428E69C3500443DAE /* KostViewController.swift */,
 				E2895F4628E69C3500443DAE /* Main.storyboard */,
 				E2895F4928E69C3700443DAE /* Assets.xcassets */,
 				E2895F4B28E69C3700443DAE /* LaunchScreen.storyboard */,
@@ -258,9 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2895F4528E69C3500443DAE /* ViewController.swift in Sources */,
+				E2895F7328E69C6D00443DAE /* AlexViewController.swift in Sources */,
+				E2895F7528E69C8800443DAE /* CALENViewController.swift in Sources */,
+				E2895F4528E69C3500443DAE /* KostViewController.swift in Sources */,
 				E2895F4128E69C3500443DAE /* AppDelegate.swift in Sources */,
 				E2895F4328E69C3500443DAE /* SceneDelegate.swift in Sources */,
+				E2895F7928E69CA200443DAE /* NIckViewController.swift in Sources */,
+				E2895F7728E69C9600443DAE /* OWENViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
