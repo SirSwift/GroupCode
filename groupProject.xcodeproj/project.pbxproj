@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E24FEABD28EBDB6F009825F7 /* JimMachineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24FEABC28EBDB6F009825F7 /* JimMachineViewController.swift */; };
+		E24FEABF28EBDBF3009825F7 /* KabirViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24FEABE28EBDBF3009825F7 /* KabirViewController.swift */; };
+		E24FEAC428EBDD38009825F7 /* KabirIntroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24FEAC328EBDD38009825F7 /* KabirIntroTableViewCell.swift */; };
 		E2895F4128E69C3500443DAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2895F4028E69C3500443DAE /* AppDelegate.swift */; };
 		E2895F4328E69C3500443DAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2895F4228E69C3500443DAE /* SceneDelegate.swift */; };
 		E2895F4528E69C3500443DAE /* KostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2895F4428E69C3500443DAE /* KostViewController.swift */; };
@@ -42,6 +44,8 @@
 
 /* Begin PBXFileReference section */
 		E24FEABC28EBDB6F009825F7 /* JimMachineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JimMachineViewController.swift; sourceTree = "<group>"; };
+		E24FEABE28EBDBF3009825F7 /* KabirViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KabirViewController.swift; sourceTree = "<group>"; };
+		E24FEAC328EBDD38009825F7 /* KabirIntroTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KabirIntroTableViewCell.swift; sourceTree = "<group>"; };
 		E2895F3D28E69C3500443DAE /* groupProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = groupProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2895F4028E69C3500443DAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2895F4228E69C3500443DAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +90,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E24FEAC028EBDBFF009825F7 /* Students Code */ = {
+			isa = PBXGroup;
+			children = (
+				E2895F4428E69C3500443DAE /* KostViewController.swift */,
+				E24FEABC28EBDB6F009825F7 /* JimMachineViewController.swift */,
+				E2895F7228E69C6D00443DAE /* AlexViewController.swift */,
+				E2895F7828E69CA200443DAE /* NIckViewController.swift */,
+				E2895F7628E69C9600443DAE /* OWENViewController.swift */,
+				E2895F7428E69C8800443DAE /* CALENViewController.swift */,
+			);
+			path = "Students Code";
+			sourceTree = "<group>";
+		};
 		E2895F3428E69C3500443DAE = {
 			isa = PBXGroup;
 			children = (
@@ -111,12 +128,9 @@
 			children = (
 				E2895F4028E69C3500443DAE /* AppDelegate.swift */,
 				E2895F4228E69C3500443DAE /* SceneDelegate.swift */,
-				E2895F7228E69C6D00443DAE /* AlexViewController.swift */,
-				E2895F7828E69CA200443DAE /* NIckViewController.swift */,
-				E2895F7628E69C9600443DAE /* OWENViewController.swift */,
-				E2895F7428E69C8800443DAE /* CALENViewController.swift */,
-				E2895F4428E69C3500443DAE /* KostViewController.swift */,
-				E24FEABC28EBDB6F009825F7 /* JimMachineViewController.swift */,
+				E24FEAC028EBDBFF009825F7 /* Students Code */,
+				E24FEABE28EBDBF3009825F7 /* KabirViewController.swift */,
+				E24FEAC328EBDD38009825F7 /* KabirIntroTableViewCell.swift */,
 				E2895F4628E69C3500443DAE /* Main.storyboard */,
 				E2895F4928E69C3700443DAE /* Assets.xcassets */,
 				E2895F4B28E69C3700443DAE /* LaunchScreen.storyboard */,
@@ -277,6 +291,8 @@
 				E2895F7528E69C8800443DAE /* CALENViewController.swift in Sources */,
 				E2895F4528E69C3500443DAE /* KostViewController.swift in Sources */,
 				E2895F4128E69C3500443DAE /* AppDelegate.swift in Sources */,
+				E24FEAC428EBDD38009825F7 /* KabirIntroTableViewCell.swift in Sources */,
+				E24FEABF28EBDBF3009825F7 /* KabirViewController.swift in Sources */,
 				E2895F4328E69C3500443DAE /* SceneDelegate.swift in Sources */,
 				E24FEABD28EBDB6F009825F7 /* JimMachineViewController.swift in Sources */,
 				E2895F7928E69CA200443DAE /* NIckViewController.swift in Sources */,
