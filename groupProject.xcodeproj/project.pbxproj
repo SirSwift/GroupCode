@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E24FEABD28EBDB6F009825F7 /* JimMachineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24FEABC28EBDB6F009825F7 /* JimMachineViewController.swift */; };
 		E2895F4128E69C3500443DAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2895F4028E69C3500443DAE /* AppDelegate.swift */; };
 		E2895F4328E69C3500443DAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2895F4228E69C3500443DAE /* SceneDelegate.swift */; };
 		E2895F4528E69C3500443DAE /* KostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2895F4428E69C3500443DAE /* KostViewController.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E24FEABC28EBDB6F009825F7 /* JimMachineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JimMachineViewController.swift; sourceTree = "<group>"; };
 		E2895F3D28E69C3500443DAE /* groupProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = groupProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2895F4028E69C3500443DAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2895F4228E69C3500443DAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				E2895F7628E69C9600443DAE /* OWENViewController.swift */,
 				E2895F7428E69C8800443DAE /* CALENViewController.swift */,
 				E2895F4428E69C3500443DAE /* KostViewController.swift */,
+				E24FEABC28EBDB6F009825F7 /* JimMachineViewController.swift */,
 				E2895F4628E69C3500443DAE /* Main.storyboard */,
 				E2895F4928E69C3700443DAE /* Assets.xcassets */,
 				E2895F4B28E69C3700443DAE /* LaunchScreen.storyboard */,
@@ -275,6 +278,7 @@
 				E2895F4528E69C3500443DAE /* KostViewController.swift in Sources */,
 				E2895F4128E69C3500443DAE /* AppDelegate.swift in Sources */,
 				E2895F4328E69C3500443DAE /* SceneDelegate.swift in Sources */,
+				E24FEABD28EBDB6F009825F7 /* JimMachineViewController.swift in Sources */,
 				E2895F7928E69CA200443DAE /* NIckViewController.swift in Sources */,
 				E2895F7728E69C9600443DAE /* OWENViewController.swift in Sources */,
 			);
